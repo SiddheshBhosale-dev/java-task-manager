@@ -16,6 +16,10 @@ class TaskManager {
         }
     }
 
+    int getNextId(){
+        return nextId++;
+    }
+    
     void add(Task t) {
         tasks.add(t);
         save();
