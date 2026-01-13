@@ -1,0 +1,5 @@
+version: "3.8"
+services:
+  task-manager:
+    image: openjdk:17
+    container_name: task-manager

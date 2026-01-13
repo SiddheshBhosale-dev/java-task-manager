@@ -1,0 +1,16 @@
+Task ID: T1
+Task Type: bug_fix
+
+Problem:
+When the Task Manager application is restarted, task IDs start again from 1.
+This causes duplicate task IDs for tasks that were created in earlier runs.
+
+Expected Behavior:
+Task IDs must continue from the last saved task.
+The next task ID should be calculated based on the tasks loaded from disk.
+
+Constraints:
+- Existing functionality must not break
+- Add, view, complete, and delete operations should behave the same
+- The fix must work across application restarts
+- Corrupted or empty persistence files should not crash the app
