@@ -1,0 +1,17 @@
+Task T2 – Improve input handling
+
+The current task manager works, but it crashes or behaves badly when the user enters incorrect input.
+Update the application so it handles invalid input gracefully instead of crashing.
+
+The program should:
+Not crash when the user enters wrong input
+Show clear and helpful error messages
+Continue running after an error and return to the main menu
+
+Handle at least the following cases:
+User enters non-numeric input for the menu choice
+User enters invalid input for task priority
+User enters an invalid date format or invalid date
+User tries to complete or delete a task ID that does not exist
+
+All existing features must continue to work exactly as before.
